@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
     <title>INTERLUDE</title>
+    <item>
+      <title>INTERLUDE 1.1</title>
+      <pubDate>Tue, 06 Oct 2026 06:33:23 GMT</pubDate>
+      <sparkle:version>2</sparkle:version>
+      <sparkle:shortVersionString>1.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+      <description>&lt;h3&gt;새로 생긴 것&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;이제 앱 안에서 업데이트를 받을 수 있어요. 하루에 한 번 새 버전을 확인하고, 있으면 물어봐요.&lt;/li&gt;&lt;li&gt;설정 › 일반에서 현재 버전을 보고, 직접 업데이트를 확인하거나 자동 확인을 끌 수 있어요.&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;알아 두세요&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;이번 버전만 DMG로 한 번 다시 설치해 주세요. 다음 버전부터는 앱이 알아서 알려 줘요.&lt;/li&gt;&lt;li&gt;앱은 꼭 응용 프로그램 폴더에 두고 써야 업데이트를 받을 수 있어요.&lt;/li&gt;&lt;/ul&gt;</description>
+      <enclosure url="https://github.com/zeroruler/INTERLUDE-releases/releases/download/v1.1/INTERLUDE-1.1.zip" sparkle:edSignature="CWmV059V6b6mVxZx9oIHgFC2fe5wZbIT0A1jiaB2sMcaLwst6ECSmVbLer/l2qY8gMeUS8Tih13YkdJOY467Dg==" length="3466397" type="application/octet-stream" />
+    </item>
   </channel>
 </rss>
