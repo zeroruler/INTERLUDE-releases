@@ -3,6 +3,15 @@
   <channel>
     <title>INTERLUDE</title>
     <item>
+      <title>INTERLUDE 1.2.1</title>
+      <pubDate>Tue, 06 Oct 2026 09:20:07 GMT</pubDate>
+      <sparkle:version>4</sparkle:version>
+      <sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+      <description>&lt;h3&gt;바뀐 것&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;설정 › 일반의 [업데이트 확인]을 누르면 결과가 버튼 자리에 남아요. 새 버전이 있으면 [업데이트] 버튼으로 바뀌고, 누르면 업데이트 창이 열려요.&lt;/li&gt;&lt;li&gt;설정 창과 도움말 창이 더는 항상 맨 위에 떠 있지 않아요. 다른 창을 누르면 뒤로 가요.&lt;/li&gt;&lt;li&gt;메뉴바 캐릭터 선택지를 Run cat / Claude로 표기해요.&lt;/li&gt;&lt;/ul&gt;</description>
+      <enclosure url="https://github.com/zeroruler/INTERLUDE-releases/releases/download/v1.2.1/INTERLUDE-1.2.1.zip" sparkle:edSignature="9vzLaZE7w3xHb8sKh53uK9B0c1OTTF319iiuK/V9Jc2voJiAbvvWYZZBK3BAnGMOgU9186b0rbuyKapUSqyaBg==" length="3481664" type="application/octet-stream" />
+    </item>
+    <item>
       <title>INTERLUDE 1.2</title>
       <pubDate>Tue, 06 Oct 2026 08:24:13 GMT</pubDate>
       <sparkle:version>3</sparkle:version>
