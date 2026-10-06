@@ -164,7 +164,7 @@
     <h2 id="install">처음 설치하기</h2>
     <div class="card">
       <ol class="steps">
-        <li><b>받은 DMG 파일을 열어요</b><span>다운로드 폴더의 <span class="path">INTERLUDE-x.y.dmg</span>를 더블클릭해요.</span></li>
+        <li><b>받은 DMG 파일을 열어요</b><span>다운로드 폴더에서 <span class="path" id="dmg-name">INTERLUDE dmg</span> 파일을 더블클릭해요.</span></li>
         <li><b>응용 프로그램 폴더로 끌어다 놓아요</b><span>창 안의 INTERLUDE를 옆의 응용 프로그램 폴더에 놓아요. 그래야 업데이트를 받을 수 있어요.</span></li>
         <li><b>처음 열 때 한 번만 허용해요</b><span>“확인되지 않은 개발자” 경고가 뜨면 닫고, <span class="path">시스템 설정 › 개인정보 보호 및 보안</span> 아래쪽의 <b style="display:inline">그래도 열기</b>를 누른 뒤 한 번 더 열기를 눌러요.</span></li>
       </ol>
@@ -196,10 +196,12 @@
   const MIN_SYSTEM = "macOS 14.6 이상";
   const button = document.getElementById("download");
   const meta = document.getElementById("meta");
+  const dmgName = document.getElementById("dmg-name");
 
   function showFallback() {
     button.href = FALLBACK_URL;
     meta.textContent = "최신 버전 · " + MIN_SYSTEM;
+    dmgName.textContent = "INTERLUDE dmg";
   }
 
   // 최신 릴리스의 첫 .dmg 로 버튼을 채운다. 읽지 못하면 최신 릴리스 페이지로 남긴다.
@@ -211,6 +213,7 @@
     const size = (dmg.size / 1024 / 1024).toFixed(1) + "MB";
     const date = (release.published_at || "").slice(0, 10).replaceAll("-", ".");
     button.href = dmg.browser_download_url;
+    dmgName.textContent = dmg.name;
     meta.textContent = [version && "v" + version, size, MIN_SYSTEM, date].filter(Boolean).join(" · ");
   }
 
