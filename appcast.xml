@@ -3,6 +3,15 @@
   <channel>
     <title>INTERLUDE</title>
     <item>
+      <title>INTERLUDE 1.2</title>
+      <pubDate>Tue, 06 Oct 2026 08:24:13 GMT</pubDate>
+      <sparkle:version>3</sparkle:version>
+      <sparkle:shortVersionString>1.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+      <description>&lt;h3&gt;바뀐 것&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;노치로 AirDrop: 내려오는 캡슐의 위 모서리가 노치와 자연스럽게 이어지도록 다듬었어요. 데스크탑 보기에서도 캡슐이 밀려나지 않아요.&lt;/li&gt;&lt;li&gt;설정 › 일반의 [업데이트 확인]이 팝업 대신 버튼 글자로 결과를 알려 줘요(&amp;quot;최신 버전입니다&amp;quot;).&lt;/li&gt;&lt;li&gt;설정의 버전 표시를 1.2처럼 간단하게 바꿨어요.&lt;/li&gt;&lt;/ul&gt;</description>
+      <enclosure url="https://github.com/zeroruler/INTERLUDE-releases/releases/download/v1.2/INTERLUDE-1.2.zip" sparkle:edSignature="Upma3xxPXcWQ4xoYA/KFherATb3tTUuhvSO0kkbM7362swzEr4PWRjhMcU5SZQ5/pugYHzwYWc/RN2pdfubVAA==" length="3477707" type="application/octet-stream" />
+    </item>
+    <item>
       <title>INTERLUDE 1.1</title>
       <pubDate>Tue, 06 Oct 2026 06:33:23 GMT</pubDate>
       <sparkle:version>2</sparkle:version>
