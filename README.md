@@ -2,6 +2,8 @@
 
 맥 메뉴바 앱 INTERLUDE의 배포 파일과 업데이트 피드입니다.
 
+**👉 다운로드 페이지: https://zeroruler.github.io/INTERLUDE-releases/**
+
 ## 처음 설치하기
 
 1. 오른쪽 **Releases**에서 가장 최신 버전의 `INTERLUDE-x.y.dmg`를 받습니다.

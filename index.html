@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>INTERLUDE 다운로드</title>
+<meta name="description" content="메뉴바에 사는 메모장이자, 맥 작업을 곁에서 챙기는 고양이. INTERLUDE를 받아 설치하세요.">
+<link rel="icon" href="assets/icon.png">
+<link rel="apple-touch-icon" href="assets/icon.png">
+<style>
+  :root {
+    --bg: #f5f5f4;
+    --surface: #ffffff;
+    --ink: #1c1c1e;
+    --ink-2: #48484a;
+    --ink-3: #8a8a8e;
+    --line: rgba(0, 0, 0, 0.08);
+    --button-bg: #1c1c1e;
+    --button-fg: #ffffff;
+    --key-bg: #ececeb;
+    --cat-filter: none;
+    color-scheme: light dark;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #161617;
+      --surface: #1f1f21;
+      --ink: #f2f2f3;
+      --ink-2: #c4c4c7;
+      --ink-3: #8a8a8e;
+      --line: rgba(255, 255, 255, 0.09);
+      --button-bg: #f2f2f3;
+      --button-fg: #161617;
+      --key-bg: #2c2c2f;
+      --cat-filter: invert(1);
+    }
+  }
+
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Pretendard", "Noto Sans KR", sans-serif;
+    word-break: keep-all;
+    overflow-wrap: anywhere;
+    -webkit-font-smoothing: antialiased;
+  }
+  main { max-width: 600px; margin: 0 auto; padding: 72px 20px 56px; }
+
+  /* 머리 */
+  .hero { text-align: center; }
+  .icon {
+    width: 104px; height: 104px; display: block; margin: 0 auto 20px;
+    filter: drop-shadow(0 10px 24px rgba(0, 0, 0, 0.14));
+  }
+  h1 { margin: 0; font-size: 34px; line-height: 1.2; letter-spacing: 0.08em; font-weight: 700; }
+  .tagline { margin: 10px 0 0; color: var(--ink-2); font-size: 17px; }
+
+  .track {
+    position: relative; height: 40px; margin: 28px auto 24px; max-width: 320px;
+    border-bottom: 1px dashed var(--line); overflow: hidden;
+  }
+  .cat {
+    position: absolute; bottom: 2px; left: 0; width: 42px; height: 24px;
+    filter: var(--cat-filter);
+    animation: run 9s linear infinite;
+  }
+  @keyframes run {
+    from { transform: translateX(-48px); }
+    to   { transform: translateX(330px); }
+  }
+
+  .download {
+    display: inline-flex; align-items: center; gap: 10px;
+    padding: 15px 30px; border-radius: 14px;
+    background: var(--button-bg); color: var(--button-fg);
+    font-size: 18px; font-weight: 650; text-decoration: none;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.16);
+  }
+  .download:hover { transform: translateY(-1px); box-shadow: 0 10px 24px rgba(0, 0, 0, 0.2); }
+  .download:active { transform: translateY(0); }
+  .download:focus-visible { outline: 3px solid var(--ink-3); outline-offset: 3px; }
+  .download svg { width: 20px; height: 20px; }
+  .meta { margin: 12px 0 0; color: var(--ink-3); font-size: 14px; font-variant-numeric: tabular-nums; }
+  .mobile-note {
+    display: none; margin: 16px auto 0; max-width: 340px; padding: 10px 14px;
+    border-radius: 10px; background: var(--surface); border: 1px solid var(--line);
+    color: var(--ink-2); font-size: 14px;
+  }
+  .is-mobile .mobile-note { display: block; }
+
+  /* 섹션 */
+  section { margin-top: 64px; }
+  h2 { font-size: 20px; margin: 0 0 18px; letter-spacing: -0.01em; }
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 8px 22px; }
+
+  ol.steps { list-style: none; margin: 0; padding: 0; counter-reset: step; }
+  ol.steps li {
+    counter-increment: step; position: relative; padding: 16px 0 16px 44px;
+    border-bottom: 1px solid var(--line);
+  }
+  ol.steps li:last-child { border-bottom: 0; }
+  ol.steps li::before {
+    content: counter(step); position: absolute; left: 0; top: 16px;
+    width: 28px; height: 28px; border-radius: 50%;
+    display: grid; place-items: center;
+    background: var(--button-bg); color: var(--button-fg); font-size: 14px; font-weight: 700;
+  }
+  .steps b { display: block; font-weight: 650; }
+  .steps span { color: var(--ink-2); font-size: 15px; }
+  .path { font-weight: 600; color: var(--ink); white-space: nowrap; }
+  .note { margin: 14px 4px 0; color: var(--ink-3); font-size: 14px; }
+
+  ul.features { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  ul.features li { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 16px 18px; }
+  ul.features b { display: block; font-weight: 650; margin-bottom: 4px; }
+  ul.features span { color: var(--ink-2); font-size: 14.5px; line-height: 1.55; display: block; }
+  kbd {
+    font: 600 12.5px/1 ui-monospace, "SF Mono", Menlo, monospace;
+    padding: 3px 6px; border-radius: 6px; background: var(--key-bg); color: var(--ink);
+    border: 1px solid var(--line); white-space: nowrap;
+  }
+
+  footer { margin-top: 64px; text-align: center; color: var(--ink-3); font-size: 14px; }
+  footer a { color: var(--ink-2); }
+
+  @media (max-width: 520px) {
+    main { padding-top: 48px; }
+    h1 { font-size: 30px; }
+    ul.features { grid-template-columns: 1fr; }
+    .card { padding: 4px 16px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .cat { animation: none; left: 50%; transform: translateX(-50%); }
+    .download { transition: none; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <header class="hero">
+    <img class="icon" src="assets/icon.png" alt="" width="104" height="104">
+    <h1>INTERLUDE</h1>
+    <p class="tagline">메뉴바에 사는 메모장이자,<br>맥 작업을 곁에서 챙기는 고양이</p>
+
+    <div class="track" aria-hidden="true">
+      <img class="cat" id="cat" src="assets/cat-0.png" alt="" width="42" height="24">
+    </div>
+
+    <a class="download" id="download" href="https://github.com/zeroruler/INTERLUDE-releases/releases/latest">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M12 4v11"/><path d="M7 10.5l5 5 5-5"/><path d="M5 20h14"/>
+      </svg>
+      맥용 다운로드
+    </a>
+    <p class="meta" id="meta">최신 버전 · macOS 14.6 이상</p>
+    <p class="mobile-note">맥 전용 앱이에요. 이 페이지를 맥에서 열어 받아 주세요.</p>
+  </header>
+
+  <section aria-labelledby="install">
+    <h2 id="install">처음 설치하기</h2>
+    <div class="card">
+      <ol class="steps">
+        <li><b>받은 DMG 파일을 열어요</b><span>다운로드 폴더의 <span class="path">INTERLUDE-x.y.dmg</span>를 더블클릭해요.</span></li>
+        <li><b>응용 프로그램 폴더로 끌어다 놓아요</b><span>창 안의 INTERLUDE를 옆의 응용 프로그램 폴더에 놓아요. 그래야 업데이트를 받을 수 있어요.</span></li>
+        <li><b>처음 열 때 한 번만 허용해요</b><span>“확인되지 않은 개발자” 경고가 뜨면 닫고, <span class="path">시스템 설정 › 개인정보 보호 및 보안</span> 아래쪽의 <b style="display:inline">그래도 열기</b>를 누른 뒤 한 번 더 열기를 눌러요.</span></li>
+      </ol>
+    </div>
+    <p class="note">경고는 처음 한 번만 떠요. INTERLUDE 1.0을 쓰고 있었다면 이번 한 번만 이렇게 다시 설치해 주세요. 다음부터는 앱이 알아서 업데이트해요.</p>
+  </section>
+
+  <section aria-labelledby="features">
+    <h2 id="features">이런 걸 해요</h2>
+    <ul class="features">
+      <li><b>빠른 메모</b><span>어디서든 <kbd>⌥ Space</kbd>로 꺼내 쓰고 다시 눌러 넣어요. 수식 뒤에 = 를 치면 계산도 해요.</span></li>
+      <li><b>메뉴바 고양이</b><span>고양이를 누르면 CPU·메모리·배터리 같은 시스템 정보가 열려요.</span></li>
+      <li><b>잠자기 방지</b><span>고양이를 우클릭하면 맥이 잠들지 않게 붙잡아 둬요. 시간을 정할 수도 있어요.</span></li>
+      <li><b>에이전트 말풍선</b><span>Claude Code나 Codex가 답을 기다리면 말풍선으로 알려 줘요.</span></li>
+      <li><b>Caps Lock 한/영 전환</b><span>Caps Lock을 한/영 전환 전용 키로 써요. 글자가 씹히지 않아요.</span></li>
+      <li><b>노치로 AirDrop</b><span>파일을 끌면 노치 아래로 AirDrop 자리가 내려와요. 놓으면 바로 보낼 수 있어요.</span></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>업데이트는 앱이 하루에 한 번 확인해서 알려 줘요.<br>
+      <a href="https://github.com/zeroruler/INTERLUDE-releases/releases">변경 내역 보기</a></p>
+  </footer>
+</main>
+
+<script>
+  const API = "https://api.github.com/repos/zeroruler/INTERLUDE-releases/releases/latest";
+  const FALLBACK_URL = "https://github.com/zeroruler/INTERLUDE-releases/releases/latest";
+  const MIN_SYSTEM = "macOS 14.6 이상";
+  const button = document.getElementById("download");
+  const meta = document.getElementById("meta");
+
+  function showFallback() {
+    button.href = FALLBACK_URL;
+    meta.textContent = "최신 버전 · " + MIN_SYSTEM;
+  }
+
+  // 최신 릴리스의 첫 .dmg 로 버튼을 채운다. 읽지 못하면 최신 릴리스 페이지로 남긴다.
+  function showRelease(release) {
+    const assets = release && Array.isArray(release.assets) ? release.assets : [];
+    const dmg = assets.find(a => typeof a.name === "string" && /\.dmg$/i.test(a.name));
+    if (!dmg || !dmg.browser_download_url) return showFallback();
+    const version = String(release.tag_name || "").replace(/^v/, "");
+    const size = (dmg.size / 1024 / 1024).toFixed(1) + "MB";
+    const date = (release.published_at || "").slice(0, 10).replaceAll("-", ".");
+    button.href = dmg.browser_download_url;
+    meta.textContent = [version && "v" + version, size, MIN_SYSTEM, date].filter(Boolean).join(" · ");
+  }
+
+  async function loadLatest() {
+    showFallback();
+    try {
+      const response = await fetch(API, { headers: { Accept: "application/vnd.github+json" } });
+      if (!response.ok) throw new Error("GitHub " + response.status);
+      showRelease(await response.json());
+    } catch (error) {
+      showFallback();
+    }
+  }
+
+  // 메뉴바 고양이처럼 다섯 장을 돌린다. 모션 줄이기면 멈춰 둔다.
+  function runCat() {
+    if (matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    const cat = document.getElementById("cat");
+    const frames = [0, 1, 2, 3, 4].map(i => "assets/cat-" + i + ".png");
+    frames.forEach(src => { new Image().src = src; });
+    let i = 0;
+    setInterval(() => { i = (i + 1) % frames.length; cat.src = frames[i]; }, 110);
+  }
+
+  const ua = navigator.userAgent;
+  const isMac = /Macintosh/.test(ua) && navigator.maxTouchPoints < 2;
+  if (!isMac) document.documentElement.classList.add("is-mobile");
+
+  loadLatest();
+  runCat();
+</script>
+</body>
+</html>
