@@ -6,7 +6,7 @@
 
 ## 처음 설치하기
 
-1. 오른쪽 **Releases**에서 가장 최신 버전의 `INTERLUDE-버전.dmg`(예: `INTERLUDE-1.2.1.dmg`)를 받습니다.
+1. 오른쪽 **Releases**에서 가장 최신 버전의 `INTERLUDE-버전.dmg`(예: `INTERLUDE-1.0.0.dmg`)를 받습니다.
 2. DMG를 열고 INTERLUDE를 **응용 프로그램** 폴더로 끌어다 놓습니다.
 3. 응용 프로그램 폴더에서 INTERLUDE를 엽니다. "확인되지 않은 개발자" 경고가 뜨면:
    - **시스템 설정 › 개인정보 보호 및 보안**으로 가서
