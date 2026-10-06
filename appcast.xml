@@ -11,41 +11,5 @@
       <description>&lt;h3&gt;INTERLUDE 1.0.0&lt;/h3&gt;&lt;p&gt;메뉴바에 사는 메모장이자, 맥 작업을 곁에서 챙기는 고양이예요.&lt;/p&gt;&lt;ul&gt;&lt;li&gt;빠른 메모: 어디서든 ⌥ Space로 꺼내 쓰고, 수식 뒤에 = 를 치면 계산도 해요.&lt;/li&gt;&lt;li&gt;메뉴바 고양이: 누르면 CPU·메모리·배터리 같은 시스템 정보가 열려요.&lt;/li&gt;&lt;li&gt;잠자기 방지: 고양이를 우클릭하면 맥이 잠들지 않게 붙잡아 둬요.&lt;/li&gt;&lt;li&gt;에이전트 말풍선: Claude Code나 Codex가 답을 기다리면 알려 줘요.&lt;/li&gt;&lt;li&gt;Caps Lock 한/영 전환: Caps Lock을 한/영 전환 전용 키로 써요.&lt;/li&gt;&lt;li&gt;노치로 AirDrop: 파일을 끌어 노치 아래에 놓으면 바로 보낼 수 있어요.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;새 버전은 설정 › 일반에서 확인하고 바로 업데이트할 수 있어요.&lt;/p&gt;</description>
       <enclosure url="https://github.com/zeroruler/INTERLUDE-releases/releases/download/v1.0.0/INTERLUDE-1.0.0.zip" sparkle:edSignature="RjfoiirfGWRB0FGsugNYEL9dPHhcfe7kqYwGYgf6QWs39xmzHICys8rQnuGISpTXlqADDZLMo/2P37Tskvp/CQ==" length="3500426" type="application/octet-stream" />
     </item>
-    <item>
-      <title>INTERLUDE 1.2.2</title>
-      <pubDate>Tue, 06 Oct 2026 10:00:04 GMT</pubDate>
-      <sparkle:version>5</sparkle:version>
-      <sparkle:shortVersionString>1.2.2</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
-      <description>&lt;h3&gt;바뀐 것&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;업데이트 알림 창이 더는 뜨지 않아요. 새 버전이 있으면 설정 › 일반에 &amp;quot;새 버전 [업데이트]&amp;quot;로 조용히 표시돼요.&lt;/li&gt;&lt;li&gt;[업데이트]를 누르면 창 없이 내려받아 설치하고 앱이 저절로 다시 켜져요. 진행 상황은 버튼 자리에 보여요.&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;알아 두세요&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;이번 업데이트는 예전 방식의 알림 창으로 받게 돼요. 다음 버전부터 창 없이 업데이트돼요.&lt;/li&gt;&lt;/ul&gt;</description>
-      <enclosure url="https://github.com/zeroruler/INTERLUDE-releases/releases/download/v1.2.2/INTERLUDE-1.2.2.zip" sparkle:edSignature="D3f14qMLWmL6kL5/PQ4o1hGWZIcgF6jtBjf7tXxss7HgPCDJ5TjWUOvq6aOttI1sDX4UCFXZWrPdk66d+qvQAA==" length="3500431" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>INTERLUDE 1.2.1</title>
-      <pubDate>Tue, 06 Oct 2026 09:20:07 GMT</pubDate>
-      <sparkle:version>4</sparkle:version>
-      <sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
-      <description>&lt;h3&gt;바뀐 것&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;설정 › 일반의 [업데이트 확인]을 누르면 결과가 버튼 자리에 남아요. 새 버전이 있으면 [업데이트] 버튼으로 바뀌고, 누르면 업데이트 창이 열려요.&lt;/li&gt;&lt;li&gt;설정 창과 도움말 창이 더는 항상 맨 위에 떠 있지 않아요. 다른 창을 누르면 뒤로 가요.&lt;/li&gt;&lt;li&gt;메뉴바 캐릭터 선택지를 Run cat / Claude로 표기해요.&lt;/li&gt;&lt;/ul&gt;</description>
-      <enclosure url="https://github.com/zeroruler/INTERLUDE-releases/releases/download/v1.2.1/INTERLUDE-1.2.1.zip" sparkle:edSignature="9vzLaZE7w3xHb8sKh53uK9B0c1OTTF319iiuK/V9Jc2voJiAbvvWYZZBK3BAnGMOgU9186b0rbuyKapUSqyaBg==" length="3481664" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>INTERLUDE 1.2</title>
-      <pubDate>Tue, 06 Oct 2026 08:24:13 GMT</pubDate>
-      <sparkle:version>3</sparkle:version>
-      <sparkle:shortVersionString>1.2</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
-      <description>&lt;h3&gt;바뀐 것&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;노치로 AirDrop: 내려오는 캡슐의 위 모서리가 노치와 자연스럽게 이어지도록 다듬었어요. 데스크탑 보기에서도 캡슐이 밀려나지 않아요.&lt;/li&gt;&lt;li&gt;설정 › 일반의 [업데이트 확인]이 팝업 대신 버튼 글자로 결과를 알려 줘요(&amp;quot;최신 버전입니다&amp;quot;).&lt;/li&gt;&lt;li&gt;설정의 버전 표시를 1.2처럼 간단하게 바꿨어요.&lt;/li&gt;&lt;/ul&gt;</description>
-      <enclosure url="https://github.com/zeroruler/INTERLUDE-releases/releases/download/v1.2/INTERLUDE-1.2.zip" sparkle:edSignature="Upma3xxPXcWQ4xoYA/KFherATb3tTUuhvSO0kkbM7362swzEr4PWRjhMcU5SZQ5/pugYHzwYWc/RN2pdfubVAA==" length="3477707" type="application/octet-stream" />
-    </item>
-    <item>
-      <title>INTERLUDE 1.1</title>
-      <pubDate>Tue, 06 Oct 2026 06:33:23 GMT</pubDate>
-      <sparkle:version>2</sparkle:version>
-      <sparkle:shortVersionString>1.1</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
-      <description>&lt;h3&gt;새로 생긴 것&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;이제 앱 안에서 업데이트를 받을 수 있어요. 하루에 한 번 새 버전을 확인하고, 있으면 물어봐요.&lt;/li&gt;&lt;li&gt;설정 › 일반에서 현재 버전을 보고, 직접 업데이트를 확인하거나 자동 확인을 끌 수 있어요.&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;알아 두세요&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;이번 버전만 DMG로 한 번 다시 설치해 주세요. 다음 버전부터는 앱이 알아서 알려 줘요.&lt;/li&gt;&lt;li&gt;앱은 꼭 응용 프로그램 폴더에 두고 써야 업데이트를 받을 수 있어요.&lt;/li&gt;&lt;/ul&gt;</description>
-      <enclosure url="https://github.com/zeroruler/INTERLUDE-releases/releases/download/v1.1/INTERLUDE-1.1.zip" sparkle:edSignature="CWmV059V6b6mVxZx9oIHgFC2fe5wZbIT0A1jiaB2sMcaLwst6ECSmVbLer/l2qY8gMeUS8Tih13YkdJOY467Dg==" length="3466397" type="application/octet-stream" />
-    </item>
   </channel>
 </rss>
