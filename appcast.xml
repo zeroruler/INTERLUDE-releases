@@ -3,6 +3,15 @@
   <channel>
     <title>INTERLUDE</title>
     <item>
+      <title>INTERLUDE 1.0.1</title>
+      <pubDate>Wed, 07 Oct 2026 04:37:45 GMT</pubDate>
+      <sparkle:version>7</sparkle:version>
+      <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+      <description>&lt;h3&gt;새로 생긴 것&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;에이전트 말풍선을 앱 안에서 바로 연결할 수 있어요. 메뉴바 고양이 › 도움말을 열고 에이전트 말풍선의 [연결하기]를 누르면 Claude Code와 Codex에 알아서 붙어요.&lt;/li&gt;&lt;li&gt;연결할 때 원래 설정 파일은 백업해 두고, 이미 써 둔 다른 훅은 그대로 둬요.&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;바뀐 것&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;잠자기 방지 중 망치질하는 클로드가 이제 다리를 곧게 펴고 서요.&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;알아 두세요&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;연결한 뒤 새로 여는 Claude Code·Codex 세션부터 말풍선이 떠요.&lt;/li&gt;&lt;li&gt;앱을 업데이트해도 다시 연결할 필요는 없어요.&lt;/li&gt;&lt;/ul&gt;</description>
+      <enclosure url="https://github.com/zeroruler/INTERLUDE-releases/releases/download/v1.0.1/INTERLUDE-1.0.1.zip" sparkle:edSignature="0aPmFuwBGPb+pAIrJO2vRZuE1hWKeUfIC/CAB0jjTYVxGX77oXl9mzfvk2kBLrvMQtxfxUty2LVb4lcf+l7KDw==" length="3519829" type="application/octet-stream" />
+    </item>
+    <item>
       <title>INTERLUDE 1.0.0</title>
       <pubDate>Tue, 06 Oct 2026 13:57:05 GMT</pubDate>
       <sparkle:version>6</sparkle:version>
