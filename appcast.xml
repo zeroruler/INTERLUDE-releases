@@ -3,6 +3,15 @@
   <channel>
     <title>INTERLUDE</title>
     <item>
+      <title>INTERLUDE 1.0.3</title>
+      <pubDate>Fri, 09 Oct 2026 07:08:06 GMT</pubDate>
+      <sparkle:version>9</sparkle:version>
+      <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+      <description>&lt;h3&gt;고친 것&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;파일을 노치(화면 맨 위 가운데)까지 쭉 끌어 던지면 AirDrop이 되지 않고 취소되던 문제를 고쳤어요. 이제 천장에 닿게 던져도 AirDrop 기기 선택 창이 떠요.&lt;/li&gt;&lt;/ul&gt;</description>
+      <enclosure url="https://github.com/zeroruler/INTERLUDE-releases/releases/download/v1.0.3/INTERLUDE-1.0.3.zip" sparkle:edSignature="l4P9ouGjBHscVG1Nks+9EW83r48ydYMWvROzIxpQfhVcjR4qR9N+06isIUxRVSHW06eeMjVbLZiusm61U28fDQ==" length="3513878" type="application/octet-stream" />
+    </item>
+    <item>
       <title>INTERLUDE 1.0.2</title>
       <pubDate>Thu, 08 Oct 2026 05:00:36 GMT</pubDate>
       <sparkle:version>8</sparkle:version>
