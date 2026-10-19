@@ -3,6 +3,15 @@
   <channel>
     <title>INTERLUDE</title>
     <item>
+      <title>INTERLUDE 1.0.6</title>
+      <pubDate>Mon, 19 Oct 2026 05:05:32 GMT</pubDate>
+      <sparkle:version>12</sparkle:version>
+      <sparkle:shortVersionString>1.0.6</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+      <description>&lt;h3&gt;새로 생긴 것&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;⌥ 드래그로 파일 변환: ⌥를 누른 채 파일을 끌면 커서 자리에 형식 도넛이 펼쳐져요. 원하는 칸에 놓으면 원본 옆에 바뀐 파일이 생겨요.&lt;/li&gt;&lt;li&gt;사진(PNG·JPG·HEIC·TIFF·PDF), PDF(PNG·JPG), 동영상(MP4·MOV·M4A), 소리(M4A·WAV·AIFF·FLAC), 자막(SRT·SMI·VTT·ASS·LRC)을 바꿀 수 있어요. 사진·PDF 여러 개는 PDF 하나로 합칠 수도 있어요.&lt;/li&gt;&lt;li&gt;HWP·HWPX를 한컴오피스 없이 PDF로 바꿔요. 처음 한 번 HWP 엔진(12MB 정도)을 받아요.&lt;/li&gt;&lt;li&gt;PPT·워드·엑셀은 Keynote·Pages·Numbers(PPT는 PowerPoint도)로 PDF를 만들어요. 처음 한 번 그 앱을 제어해도 되는지 물어봐요.&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;바뀐 것&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;Caps Lock 한/영 전환을 켜 두면 커서 옆 파란 입력 표시가 뜨지 않아요. 전환 직후 글자가 밀리던 걸 줄여 줘요. 이미 열려 있던 앱은 다시 열어야 적용돼요.&lt;/li&gt;&lt;/ul&gt;&lt;h3&gt;알아 두세요&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;그냥 끌면 지금처럼 노치로 AirDrop이에요. 변환은 ⌥를 누르고 끌 때만 나와요.&lt;/li&gt;&lt;li&gt;설정 › 파일 변환에서 끄거나 받은 HWP 엔진을 지울 수 있어요.&lt;/li&gt;&lt;/ul&gt;</description>
+      <enclosure url="https://github.com/zeroruler/INTERLUDE-releases/releases/download/v1.0.6/INTERLUDE-1.0.6.zip" sparkle:edSignature="orrAuRwS83ZY/Brx9+IrRZVOgfAr5aIY4I7soSFt45n9n0gTKPvAK1a8XGB0jDErIik49ddtudKmyg/OTPVnDw==" length="3831545" type="application/octet-stream" />
+    </item>
+    <item>
       <title>INTERLUDE 1.0.5</title>
       <pubDate>Mon, 19 Oct 2026 04:02:58 GMT</pubDate>
       <sparkle:version>11</sparkle:version>
