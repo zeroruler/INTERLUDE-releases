@@ -3,6 +3,15 @@
   <channel>
     <title>INTERLUDE</title>
     <item>
+      <title>INTERLUDE 1.0.7</title>
+      <pubDate>Mon, 19 Oct 2026 11:13:34 GMT</pubDate>
+      <sparkle:version>13</sparkle:version>
+      <sparkle:shortVersionString>1.0.7</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.6</sparkle:minimumSystemVersion>
+      <description>&lt;h3&gt;바뀐 것&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;도움말 창을 새로 만들었어요. 기능마다 탭으로 나뉘어 있고(⌘1–7), 탭을 고르면 그 기능을 쓰는 모습이 실제 화면처럼 재생돼요.&lt;/li&gt;&lt;li&gt;메뉴바 고양이·말풍선·노치처럼 작은 곳은 장면 안에서 가까이 당겨 보여 줘요.&lt;/li&gt;&lt;li&gt;바꿀 수 없는 파일은 ⌥를 누르고 끌어도 변환 도넛이 뜨지 않고, 노치 AirDrop도 그대로 나와요.&lt;/li&gt;&lt;/ul&gt;</description>
+      <enclosure url="https://github.com/zeroruler/INTERLUDE-releases/releases/download/v1.0.7/INTERLUDE-1.0.7.zip" sparkle:edSignature="r5ekRKBePVRk8Q5Fu+IEUUOdXhCYMD7BJWa7lOb2kaEIAu8SJvi1XKQmDXLK5XXsWPBWKjwDvPWegdiVOw4bDA==" length="4032469" type="application/octet-stream" />
+    </item>
+    <item>
       <title>INTERLUDE 1.0.6</title>
       <pubDate>Mon, 19 Oct 2026 05:05:32 GMT</pubDate>
       <sparkle:version>12</sparkle:version>
