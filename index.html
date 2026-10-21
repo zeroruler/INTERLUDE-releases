@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>INTERLUDE 다운로드</title>
-<meta name="description" content="메뉴바에 사는 메모장이자, 맥 작업을 곁에서 챙기는 고양이. INTERLUDE를 받아 설치하세요.">
+<meta name="description" content="당신의 맥을 위한 종합 메뉴바 앱. INTERLUDE를 받아 설치하세요.">
 <link rel="icon" href="assets/icon.png">
 <link rel="apple-touch-icon" href="assets/icon.png">
 <style>
@@ -116,6 +116,7 @@
 
   ul.features { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
   ul.features li { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 16px 18px; }
+  ul.features .wide { grid-column: 1 / -1; }
   ul.features b { display: block; font-weight: 650; margin-bottom: 4px; }
   ul.features span { color: var(--ink-2); font-size: 14.5px; line-height: 1.55; display: block; }
   kbd {
@@ -144,17 +145,17 @@
   <header class="hero">
     <img class="icon" src="assets/icon.png" alt="" width="104" height="104">
     <h1>INTERLUDE</h1>
-    <p class="tagline">메뉴바에 사는 메모장이자,<br>맥 작업을 곁에서 챙기는 고양이</p>
+    <p class="tagline">당신의 맥을 위한 종합 메뉴바 앱</p>
 
     <div class="track" aria-hidden="true">
       <img class="cat" id="cat" src="assets/cat-0.png" alt="" width="42" height="24">
     </div>
 
     <a class="download" id="download" href="https://github.com/zeroruler/INTERLUDE-releases/releases/latest">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-        <path d="M12 4v11"/><path d="M7 10.5l5 5 5-5"/><path d="M5 20h14"/>
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+        <path d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701"/>
       </svg>
-      맥용 다운로드
+      Download for Mac
     </a>
     <p class="meta" id="meta">최신 버전 · macOS 14.6 이상</p>
     <p class="mobile-note">맥 전용 앱이에요. 이 페이지를 맥에서 열어 받아 주세요.</p>
@@ -180,6 +181,7 @@
       <li><b>잠자기 방지</b><span>고양이를 우클릭하면 맥이 잠들지 않게 붙잡아 둬요. 시간을 정할 수도 있어요.</span></li>
       <li><b>에이전트 말풍선</b><span>Claude Code나 Codex가 답을 기다리면 말풍선으로 알려 줘요.</span></li>
       <li><b>Caps Lock 한/영 전환</b><span>Caps Lock을 한/영 전환 전용 키로 써요. 글자가 씹히지 않아요.</span></li>
+      <li class="wide"><b>⌥ 드래그로 파일 변환</b><span>⌥를 누른 채 파일을 끌면 형식 도넛이 펼쳐져요. 원하는 칸에 놓으면 원본 옆에 바뀐 파일이 생겨요. 사진·PDF·동영상·소리·자막, HWP·PPT·워드·엑셀을 PDF로 바꿔요.</span></li>
       <li><b>노치로 AirDrop</b><span>파일을 끌면 노치 아래로 AirDrop 자리가 내려와요. 놓으면 바로 보낼 수 있어요.</span></li>
     </ul>
   </section>
